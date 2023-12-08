@@ -15,4 +15,4 @@ First of all, the program receives an array of characters, after that, it counts
 _Meteficha, Public domain, via Wikimedia Commons_
 
 
-Once the tree is built, we use a HashMap to associate the binary code that we get after traversal the tree, whit each code we just replace the character to compress the text, if we want to decompress we need to make a new traversal to find the character.
+Once the tree is built, we use a HashMap to associate the binary code that we get after traversal the tree, with each code we just replace the character to compress the text, if we want to decompress we need to make a new traversal to find the respective character.
