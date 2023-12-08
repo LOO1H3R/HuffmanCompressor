@@ -13,3 +13,6 @@ First of all, the program receives an array of characters, after that, it counts
 
 ![512px-Huffman_tree_2 svg](https://github.com/LOO1H3R/HuffmanCompressor/assets/77658990/da11ce78-c7d7-4b79-88b2-beec2d6c5e1f)
 _Meteficha, Public domain, via Wikimedia Commons_
+
+
+Once the tree is built, we use a HashMap to associate the binary code that we get after traversal the tree, whit each code we just replace the character to compress the text, if we want to decompress we need to make a new traversal to find the character.
